@@ -1,5 +1,6 @@
 import './App.css'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
      <h1 className="text-6xl font-bold underline">
       Hello world!
     </h1>
+    <Footer/>
     </>
   )
 }
