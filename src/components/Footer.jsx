@@ -6,34 +6,38 @@ function Footer() {
     
 <footer class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div class="md:flex md:justify-around">
+        <div class="md:flex md:justify-around gap-12">
           <div class="mb-6 md:mb-0">
               <a href="" class="flex items-center">
                   <img src={logo} class="h-12 mr-3  scale-150" alt="Logo" />
              
               </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-8 sm:gap-1 sm:grid-cols-4">
+              
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">SUPPORT</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="" class="hover:underline">Tailwind</a>
+                          <a href="" class="hover:underline">FAQ</a>
                       </li>
                       <li>
-                          <a href="" class="hover:underline">Tailwind CSS</a>
+                          <a href="" class="hover:underline">Contact Us</a>
                       </li>
                   </ul>
               </div>
-              <div>
+               <div>
+                
+                
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="" class="hover:underline ">Github</a>
+                          <a href="" class="hover:underline ">YouTube</a>
                       </li>
                       <li>
-                          <a href="" class="hover:underline">Discord</a>
+                          <a href="" class="hover:underline">Facebook</a>
                       </li>
+                      
                   </ul>
               </div>
               <div>
@@ -44,6 +48,20 @@ function Footer() {
                       </li>
                       <li>
                           <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">CONTACT US</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="" class="hover:underline">Sales: ydereje99@gmail.com</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="" class="hover:underline">Support: info@yegaratech.com</a>
+                      </li>
+                      <li>
+                          <a href="" class="hover:underline">Tel: +251982791707/+251930252577</a>
                       </li>
                   </ul>
               </div>
