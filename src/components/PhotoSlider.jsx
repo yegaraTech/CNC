@@ -26,13 +26,17 @@ function PhotoSlider() {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
-  useEffect(()=>{
-    setInterval(() => {
-        const isLastSlide = currentIndex === slides.length - 1;
-        const newIndex = isLastSlide ? 0 : currentIndex + 1;
-        setCurrentIndex(newIndex);
-      }, 5000);
-  })
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const isLastSlide = currentIndex === slides.length - 1;
+      const newIndex = isLastSlide ? 0 : currentIndex + 1;
+      setCurrentIndex(newIndex);
+    }, 5000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [currentIndex]);
  
 
 console.log(currentIndex)
