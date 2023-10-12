@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState ,useEffect} from 'react';
 import image1 from '../assets/image1.png'
 import image2 from '../assets/image2.png'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
@@ -26,7 +26,16 @@ function PhotoSlider() {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
+  useEffect(()=>{
+    setInterval(() => {
+        const isLastSlide = currentIndex === slides.length - 1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex);
+      }, 5000);
+  })
+ 
 
+console.log(currentIndex)
   return (
     <div className=' h-[790px] w-full m-auto py-16  relative group'>
       <div
