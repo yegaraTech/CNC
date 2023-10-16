@@ -41,7 +41,7 @@ function PhotoSlider() {
 
 console.log(currentIndex)
   return (
-    <div className=' h-[790px] w-full m-auto py-16  relative group'>
+    <div className=' h-screen w-full m-auto   relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
         className='w-full h-full  bg-center bg-cover duration-500'
