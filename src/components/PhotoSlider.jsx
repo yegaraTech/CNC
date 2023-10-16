@@ -39,7 +39,6 @@ function PhotoSlider() {
   }, [currentIndex]);
  
 
-console.log(currentIndex)
   return (
     <div className=' h-screen w-full m-auto   relative group'>
       <div
