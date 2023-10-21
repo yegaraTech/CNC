@@ -5,7 +5,7 @@ import Firstcnc from '../assets/Firstcnc.png'
 function Home() {
   return (
     <>
-   <div className="container mx-auto flex flex-wrap justify-around bg-white h-screen">
+   <div className="container mx-auto flex flex-wrap justify-around bg-white h-screen ">
     <div className="flex flex-col justify-center items-start gap-6">
         <h1 className="font-bold text-7xl text-center font-['Poppins'] ">Welcome to </h1>
         <h1 className="font-bold text-7xl  text-center font-['Poppins'] ">Markon Tech!</h1>
