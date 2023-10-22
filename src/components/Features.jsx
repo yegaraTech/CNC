@@ -40,8 +40,8 @@ function Features() {
             {datas.map((data,index)=>{
                 return <div key={index} className='flex  flex-col justify-center space-y-4 flex-none hover:flex-1'>
                             <img className="items-center self-center " src={data.photo} alt="First CNC" />
-                            <h1 className='text-left text-gray-50 text-3xl font-bold font-["Roboto"]'>{data.title}</h1>
-                            <p className='text-justify text-neutral-400 text-lg font-normal'>{data.description}</p>
+                            <h1 className=' text-gray-50 text-3xl font-bold font-["Roboto"]'>{data.title}</h1>
+                            <p className='text-justify  text-neutral-400 text-lg font-normal'>{data.description}</p>
                         </div>
             })}
         </div>
