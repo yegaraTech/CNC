@@ -1,5 +1,6 @@
 import React from 'react'
 import Firstcnc from '../assets/Firstcnc.png'
+import QuickServices from './QuickServices'
 
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
      </div>
     <img className="h-96 justify-center items-center self-center" src={Firstcnc} alt="First CNC" />
 </div>
-
+<QuickServices/>
     
     </>
   )
