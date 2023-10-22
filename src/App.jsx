@@ -12,8 +12,8 @@ function App() {
     <>
     <NavBar/>
     <Home/>
-    <Features/>
     <AboutUs/>
+    <Features/>
     <Testimonial/>
     <PhotoSlider/>
     <Footer/>
