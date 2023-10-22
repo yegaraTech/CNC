@@ -1,0 +1,23 @@
+{
+    "data":[
+        {
+            "photo":"photo1",
+            "title":"Built-in dust collection",
+            "description":"Normally, desktop CNC machines are not equipped with dust collection functions because of the size and limited space.Through a very innovative way, we completely built the dust collection system inside the machine, let your projects start cleanand finish clean."
+        },{
+            "photo":"photo2",
+            "title":"Built-in dust collection",
+            "description":""
+        },
+        {
+            "photo":"photo3",
+            "title":"Built-in dust collection",
+            "description":""
+        },
+        {
+            "photo":"photo4",
+            "title":"Built-in dust collection",
+            "description":""
+        }
+    ]
+}
