@@ -40,7 +40,7 @@ function PhotoSlider() {
  
 
   return (
-    <div className=' h-screen w-full m-auto   relative group'>
+    <div className=' h-screen w-full m-auto   relative group' id='photoslider'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
         className='w-full h-full  bg-center bg-cover duration-500'
