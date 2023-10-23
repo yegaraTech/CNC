@@ -13,8 +13,8 @@ export default function NavBar() {
     
     
     return (
-      <div className='fixed top-0 w-full shadow-md'>
-        <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <div className='fixed top-0 w-full shadow-md '>
+        <nav className="bg-white border-gray-200 ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="" className="flex items-center">
               <img src={logo} className="h-12 mr-3 scale-150" alt="" />
