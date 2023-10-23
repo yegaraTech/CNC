@@ -29,8 +29,8 @@ const datas=[
 
 function QuickServices() {
   return (
-    <div className=' flex   bg-stone-50 border-stone-900'>
-    <div className="container md:mx-auto  shadow-2xl  bg-white mt-[-50px] mx-8">
+    <div className=' flex   bg-stone-50 border-stone-900 '>
+    <div className="container md:mx-auto  shadow-2xl  bg-white mt-[-50px] mx-8 rounded-md">
         <div className='grid grid-cols-2  md:grid-cols-4  gap-8 p-5'>
             {datas.map((data,index)=>{
                     return <div key={index} className='flex  flex-col justify-center space-y-4 flex-none hover:flex-1 text-center'>
