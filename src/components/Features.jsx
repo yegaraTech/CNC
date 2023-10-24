@@ -33,7 +33,7 @@ const datas=[
 
 function Features() {
   return (
-    <div className='bg-black pb-24'>
+    <div className='bg-black pb-24' id='features'>
     <div className='container mx-auto text-center  text-white '>
         <h1 className='text-5xl font-bold font-["Roboto"] my-24 pt-24'>Pack of Smart Features</h1> 
         <div className='grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-16 place-content-around mx-5'>

@@ -5,7 +5,7 @@ import Image3 from '../assets/image3.png'
 function AboutUs() {
   return (
     <div>
-    <div className='grid bg-stone-50 '>
+    <div className='grid bg-stone-50 ' id='aboutUs'>
         <div className="w-96 h-screen mx-[-220px]  rotate-[20.57deg] bg-black bg-opacity-20" />
         <div className="h-screen  flex  justify-center items-center col-start-2 col-span-4 ">
             <div className=' md:max-w-screen-xl mx-12 justify-self-center'>

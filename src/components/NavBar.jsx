@@ -13,7 +13,7 @@ export default function NavBar() {
     
     
     return (
-      <div className='fixed top-0 w-full shadow-md '>
+      <div className='fixed top-0 w-full shadow-md z-[20]'>
         <nav className="bg-white border-gray-200 ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="" className="flex items-center">
@@ -34,7 +34,6 @@ export default function NavBar() {
                 aria-expanded={isOpen ? "true" : "false"}
                 onClick={handleClick}
               >
-                <span className="sr-only">Open main menu</span>
                 <div className="inline-flex p-0 ml-auto text-xl rounded-full outline-none hover:shadow-sm hover:bg-gray-100 ">
                   <HamburgerMenu
                     isOpen={!isOpen}
@@ -53,7 +52,7 @@ export default function NavBar() {
             <ul className={`flex flex-col font-medium p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white  `}>
                 <li>
                   <a
-                    href="#"
+                    href="#home"
                     className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 "
                     aria-current="page"
                   >
@@ -62,7 +61,7 @@ export default function NavBar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#aboutUs"
                     className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 "
                   >
                     About
@@ -70,7 +69,7 @@ export default function NavBar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#features"
                     className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 "
                   >
                     Services
@@ -78,7 +77,7 @@ export default function NavBar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#photoslider"
                     className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 "
                   >
                     Resource
@@ -86,7 +85,7 @@ export default function NavBar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#testimoni"
                     className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 "
                   >
                     Community

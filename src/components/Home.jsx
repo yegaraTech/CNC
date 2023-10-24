@@ -1,10 +1,11 @@
 import React from 'react'
 import Firstcnc from '../assets/Firstcnc.png'
+import QuickServices from './QuickServices'
 
 
 function Home() {
   return (
-    <div className='h-screen mt-14'>
+    <div className='h-screen mt-14' id='home'>
    <div className="container mx-auto flex flex-wrap justify-around bg-white h-4/5 ">
     <div className="flex flex-col justify-center lg:items-start gap-6">
         <h1 className="font-bold text-5xl lg:text-7xl text-center font-['Poppins'] ">Welcome to </h1>
@@ -14,7 +15,7 @@ function Home() {
      </div>
     <img className="lg:h-96 justify-center items-center self-center" src={Firstcnc} alt="First CNC" />
 </div>
-
+<QuickServices/>
     
     </div>
   )
