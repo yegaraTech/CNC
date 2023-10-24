@@ -1,20 +1,22 @@
 import React from 'react'
 import Firstcnc from '../assets/Firstcnc.png'
 import QuickServices from './QuickServices'
-
+import cncVideo from '../assets/video/cnc.mp4'
 
 function Home() {
   return (
-    <div className='h-screen mt-14' id='home'>
-   <div className="container mx-auto flex flex-wrap justify-around bg-white h-4/5 ">
-    <div className="flex flex-col justify-center lg:items-start gap-6">
-        <h1 className="font-bold text-5xl lg:text-7xl text-center font-['Poppins'] ">Welcome to </h1>
-        <h1 className="font-bold text-5xl lg:text-7xl  text-center font-['Poppins'] ">Markon Tech!</h1>
-        <p className=" text-stone-400 text-4xl font-semibold font-['Open Sans'] text-center">Cut-N-Create</p>
-       <button className="w-40 h-14 px-2 py-4mt-4 bg-black self-center lg:self-start text-white font-semibold font-['Inter'] rounded-md">BUY</button>
+    <div className='flex flex-col gap-28 lg:gap-52 pt-20' id='home'>
+   <video src={cncVideo} className='absolute z-[-1] 'autoPlay loop type="video/mp4"></video>
+
+   
+    <div className="container mx-auto flex flex-col p-2 md:p-12 gap-6">
+        <h1 className="font-bold text-4xl lg:text-6xl  font-['Poppins'] ">Welcome to </h1>
+        <h1 className="font-bold text-4xl lg:text-6xl   font-['Poppins'] ">Markon Tech!</h1>
+        <p className=" text-stone-400 text-2xl font-semibold font-['Open Sans']">Cut-N-Create</p>
+       <button className="w-20 h-10 px-2 py-4mt-4 bg-black  text-white font-semibold font-['Inter'] rounded-md">BUY</button>
      </div>
-    <img className="lg:h-96 justify-center items-center self-center" src={Firstcnc} alt="First CNC" />
-</div>
+    {/* <img className="lg:h-96 justify-center items-center self-center" src={Firstcnc} alt="First CNC" /> */}
+
 <QuickServices/>
     
     </div>
