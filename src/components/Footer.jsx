@@ -1,19 +1,25 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import logo from '../assets/logo.png'
 
 function Footer() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
   return (
     <div className='container mx-auto p-12'>
 <footer className="bg-white">
     <div className="">
         <div className="">
-          <div className=" m-5">
+          <div data-aos="zoom-in-down" data-aos-duration="1000" className=" m-5">
               <a href="" className="">
                   <img src={logo} className="h-12 mr-3  scale-150" alt="Logo" />
              
               </a>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 ">
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className="grid grid-cols-2 md:grid-cols-4 ">
               
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">SUPPORT</h2>

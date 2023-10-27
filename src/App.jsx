@@ -6,6 +6,8 @@ import Home from './components/Home'
 import AboutUs from './components/AboutUs'
 import Testimonial from './components/Testimonial'
 import Features from './components/Features'
+
+import AOS from 'aos';
 function App() {
 
   return (
