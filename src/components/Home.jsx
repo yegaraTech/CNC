@@ -1,12 +1,12 @@
 import React from 'react'
 import Firstcnc from '../assets/Firstcnc.png'
 import QuickServices from './QuickServices'
-import cncVideo from '../assets/video/cnc.mp4'
+import cncVideo from '../assets/video/cnc.gif'
 
 function Home() {
   return (
     <div className='flex flex-col gap-28 lg:gap-52 pt-20' id='home'>
-   <video src={cncVideo} className='absolute z-[-1] 'autoPlay loop type="video/mp4"></video>
+   <img src={cncVideo} className='absolute z-[-2] w-full' />
 
    
     <div className="container mx-auto flex flex-col p-2 md:p-12 gap-6">
