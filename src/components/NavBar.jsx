@@ -14,7 +14,7 @@ export default function NavBar() {
     
     return (
       <div className='fixed top-0 w-full shadow-md z-[20]'>
-        <nav className="bg-white border-gray-200 ">
+        <nav className="bg-neutral-100 border-gray-200 ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="" className="flex items-center">
               <img src={logo} className="h-12 mr-3 scale-150" alt="" />
@@ -49,7 +49,7 @@ export default function NavBar() {
               </button>
             </div>
             <div className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isOpen ? 'hidden' : ''}`} id="navbar-cta">
-            <ul className={`flex flex-col font-medium p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white  `}>
+            <ul className={`flex flex-col font-medium p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0   `}>
                 <li>
                   <a
                     href="#home"
