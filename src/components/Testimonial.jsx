@@ -14,7 +14,7 @@ function Testimonial() {
                     <div className='flex gap-5 '>
                         <img src={photo1} className="w-12 h-12" alt="" />
                         <div className='text-left'> 
-                            <h3>Jacqueline Wrigh</h3>
+                            <h3>John23</h3>
                             <p className='text-neutral-400 text-sm '>Customer</p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ function Testimonial() {
                     <div className='flex gap-5 '>
                         <img src={photo1} className="w-12 h-12" alt="" />
                         <div className='text-left'> 
-                            <h3>Jacqueline Wrigh</h3>
+                            <h3>Yelshaday</h3>
                             <p className='text-neutral-400 text-sm '>Customer</p>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function Testimonial() {
                     <div className='flex gap-5 '>
                         <img src={photo1} className="w-12 h-12" alt="" />
                         <div className='text-left'> 
-                            <h3>Jacqueline Wrigh</h3>
+                            <h3>Dagim</h3>
                             <p className='text-neutral-400 text-sm '>Customer</p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ function Testimonial() {
                     <div className='flex gap-5 '>
                         <img src={photo1} className="w-12 h-12" alt="" />
                         <div className='text-left'> 
-                            <h3>Jacqueline Wrigh</h3>
+                            <h3>Haset</h3>
                             <p className='text-neutral-400 text-sm '>Customer</p>
                         </div>
                     </div>
