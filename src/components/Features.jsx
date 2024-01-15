@@ -1,4 +1,8 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 // import featuresDatas from '../data/featuresData'
 import photo1 from '../assets/photo1.png'
 import photo2 from '../assets/photo2.png'
@@ -32,13 +36,16 @@ const datas=[
 
 
 function Features() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
   return (
-    <div className='bg-black pb-24' id='features'>
+    <div className='bg-black pb-24' id='features' >
     <div className='container mx-auto text-center  text-white '>
         <h1 className='text-5xl font-bold font-["Roboto"] my-24 pt-24'>Pack of Smart Features</h1> 
-        <div className='grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-16 place-content-around mx-5'>
+        <div  className='grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-16 place-content-around mx-5'>
             {datas.map((data,index)=>{
-                return <div key={index} className='flex  flex-col justify-center space-y-4 flex-none hover:flex-1 hover:scale-105 duration-500'>
+                return <div key={index} data-aos="zoom-in" className='flex  flex-col justify-center space-y-4 flex-none hover:flex-1 hover:scale-105 duration-500'>
                             <img className=" items-center self-center " src={data.photo} alt="First CNC" />
                             <h1 className=' text-gray-50 text-3xl font-bold font-["Roboto"]'>{data.title}</h1>
                             <p className='text-justify  text-neutral-400 text-lg font-normal'>{data.description}</p>
