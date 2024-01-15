@@ -13,7 +13,7 @@ function Footer() {
 <footer className="bg-white">
     <div className="">
         <div className="">
-          <div data-aos="zoom-in-down" data-aos-duration="1000" className=" m-5">
+          <div data-aos="zoom-in-down" data-aos-duration="1000" className=" mr-5 mb-5">
               <a href="" className="">
                   <img src={logo} className="h-12 mr-3  scale-150" alt="Logo" />
              
