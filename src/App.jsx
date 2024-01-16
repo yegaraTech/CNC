@@ -16,7 +16,7 @@ function App() {
     <Home/>
     <AboutUs/>
     <Features/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
     <PhotoSlider/>
     <Footer/>
     </>
