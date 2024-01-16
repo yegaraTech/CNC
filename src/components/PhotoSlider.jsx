@@ -1,6 +1,8 @@
 import { useState ,useEffect} from 'react';
-import image1 from '../assets/image1.png'
-import image2 from '../assets/image2.png'
+import image1 from '../assets/image2.png'
+import image4 from '../assets/image3.jpg'
+import image2 from '../assets/image5.jpg'
+
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
 const slides = [
@@ -9,6 +11,9 @@ const slides = [
   },
   {
     src: image1 ,
+  },
+  {
+    src: image4 ,
   },
 ];
 
