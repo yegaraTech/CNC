@@ -1,16 +1,19 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import { useState } from "react";
 import HamburgerMenu from "react-hamburger-menu";
 import logo from '../assets/logo.png'
+import ChangeLanguage from '../language/ChangeLanguage '
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(true);
+    const [t,i18n] =useTranslation()
+
     
     const handleClick = () => {
       setIsOpen(!isOpen);
     };
-    
-    
+   
     
     return (
       <div className='fixed top-0 w-full shadow-md z-[20]'>
@@ -20,6 +23,8 @@ export default function NavBar() {
               <img src={logo} className="h-12 mr-3 scale-150" alt="" />
             </a>
             <div className="flex md:order-2">
+            <ChangeLanguage />
+
               <button
                 type="button"
                 className="text-white bg-black hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 "
